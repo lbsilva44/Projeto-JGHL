@@ -1,0 +1,414 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-primary-color{
+    background-color: #fff;
+}
+
+.bg-secondary-color{
+    background-color: #ece8ea;
+}
+
+.bg-darl-color{
+    background-color: #050505;
+}
+
+.primary-color{
+    color: #ae1d1c;
+}
+
+.secondary-color{
+    color: #d2cfcd;
+}
+
+/* NAVBAR */
+
+#navbar{
+    border-bottom: 2px solid #ae1d1c;
+}
+
+#navbar a:hover{
+    color: #d2cfcd;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+
+.navbar-brand img{
+    width: 220px;
+}
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-left: 2.5em;
+    margin-top: 50px;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+ margin: 0 5em;
+}
+
+#sobre{
+    min-width: 100vh;
+}
+
+
+/* Conteudo  de descanço*/
+
+.descanso{
+    background-image: url(../img/Banner01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    bottom: 0;
+    height: 750px;
+   }
+
+.descanso .col{
+    display: inline-flex;
+
+}
+
+.descanso .p1 {
+    text-align: end;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 10%;
+    text-align: initial;
+    
+}
+
+.descanso .p2 {
+    text-align: start;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 32%;
+    margin-left: 10%;
+}
+
+
+/* Conteudo de servico*/
+
+
+.servico {
+    margin-top: 5%;
+}
+
+.servico h2{
+    margin-top: 15%;
+}
+#servico-img{
+    width: 150px;
+    margin: 10px;
+    margin-bottom: 10%;
+}
+.servico .card{
+    text-align: center;
+    border: aliceblue;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+   
+}
+
+.servico .col-12{
+    margin-bottom: 10%;
+}
+.servico .main-title{
+    font-weight: bold;
+    border-bottom: #ae1d1c solid 2px;
+    font-size: 2em;
+}
+
+
+
+/* Sobre */
+
+.sobre{
+    background-image: url(../img/Banner02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    bottom: 0;
+    margin-top: 10%;
+    height: 750px;
+
+
+}
+.sobre .div1{
+    height: 750px;
+    width: 25%;
+    margin-left: 0;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding-top: 5%
+}
+
+.sobre h3{
+    margin-top: 30%;
+    color: red;
+    border-bottom: 2px solid;
+}
+
+/* Empresas */
+
+ .empresas{
+    margin-top: 8%;
+  
+    height: 549px;
+    
+}
+
+.empresas h3{
+    font-weight: bolder;
+    font-size: 2em;
+    border-bottom: #ae1d1c 2px solid;
+} 
+
+.empresa-img{
+    margin: 1%;
+    width: 30%;
+    margin-top: 12%;
+}
+
+/* Cases */
+
+.cases{
+    margin-top: 6%;
+    border-radius: 10%;
+}
+
+.cases h3{
+    font-weight: bolder;
+    font-size: 2em;
+    border-bottom: #ae1d1c 2px solid;
+    margin-bottom: 10%;
+}
+
+.card-text{
+    font-weight: 500;
+}
+.card-title{
+    
+    color: red;
+    font-weight: bolder;
+}
+
+
+/* footer */
+
+#footer{
+
+    padding: 3em 1em;
+    margin-top: 10%;
+
+}
+
+#footer-top{
+    margin-bottom: 2em;
+}
+
+#footer-top,
+#fotter-top i {
+    color: #fff;
+}
+
+#social-icons{
+    text-align: right;
+}
+
+#social-icons i{
+    margin-right: 1em;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover{
+    color: black;
+}
+
+/* footer Detatils*/
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container{
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4{
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+#links-container li {
+    margin-bottom: 2em;
+}
+
+#links-container a{
+    text-decoration: none;
+}
+
+#links-container a:hover{
+    color: black;
+}
+
+/* footer BOTTOM*/
+
+#footer-bottom {
+    border-top: 1px solid #fff;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    margin-left: 0.5em;
+}
+
+/* REPONSIVE WEB */
+
+
+@media (max-width: 1440px){
+    #navbar-items .nav-item{
+        margin: 0 3em;
+       }
+    .sobre .div1{
+        padding-top: 5%;
+    
+    }   
+}
+
+@media (max-width: 1024px){
+    #navbar-items .nav-item{
+        margin: 0;
+       }
+
+    .descanso .p1{
+        font-size: 32px;
+    }
+    .descanso .p2{
+        font-size: 32px;
+    }
+
+    .servico .card {
+        font-size: 1em;
+    }
+    .servico .main-title{
+        font-size: 1.5em;
+    }   
+    .empresas h3{
+        font-size: 1.5em;
+    }
+    .cases h3{
+        font-size: 1.5em;
+    }
+    .card h2{
+        font-size: 1.5em;
+    }
+    .sobre .div1{
+        padding-top: 5%;
+        font-size: 1.2em;
+    }
+}
+
+
+@media (max-width: 768px){
+    
+    #sobre{
+        min-width: 0vh;
+    }   
+    .sobre .div1{
+        font-size: 1em;
+    }
+    .descanso .col{
+        display: block
+    
+    }
+    .descanso .p2{
+        margin-left:  0;
+    }
+    .empresas{
+        height: 409px;
+    }
+    .empresa-img{
+        margin-top: 20%;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .navbar-brand span {
+        font-weight: 700;
+        font-size: 1em;
+        margin-left: 1em;
+        margin-top: 22px;}
+    
+    
+    .navbar-brand img {
+       width: 129px;
+     }
+
+     .descanso .p1 {
+        font-size: 28px;
+    }
+    
+     .descanso .p2 {
+        font-size: 28px;
+        margin-top: 50%;
+        width: 348px;
+
+        
+     }
+     .sobre .div1 {
+        width: auto;
+        padding-top: 46%;
+    }
+    .sobre{
+        background-image: url(../img/Prancheta\ 1.png);
+    }
+
+}
+
+@media (max-width: 375px){
+    .navbar-brand span {
+        font-size: 0.75em;
+    }
+
+    .navbar-brand img {
+        width: 104px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .descanso .p2 {
+        font-size: 22px;
+        margin-top: 50%;
+        width: 291px;
+    }
+    .descanso .p1 {
+        font-size: 22px;
+        margin-top: 48%;
+    }
+}
+
+
